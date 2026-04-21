@@ -253,7 +253,7 @@ export default function SearchPage() {
                 {!canSearch && (
                   <div className="mt-8 p-5 bg-red-500/5 border border-red-500/20 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4 backdrop-blur-md">
                     <p className="text-sm text-zinc-400 m-0">
-                      Insufficient tokens. <strong className="text-white">2 tokens</strong> required for analysis (₦200).
+                      Insufficient tokens. <strong className="text-white">2 tokens</strong>required(₦200).
                     </p>
                     <button
                       onClick={() => setShowTokenGate(true)}
