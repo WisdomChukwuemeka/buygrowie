@@ -315,10 +315,10 @@ export default function HomePage() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-                  <div className="flex items-center gap-3 mb-4">
+                  {/* <div className="flex items-center gap-3 mb-4">
                     <span className="text-xl font-black text-[#E8C547]">{product.price}</span>
                     <span className="text-sm text-gray-500 line-through">{product.oldPrice}</span>
-                  </div>
+                  </div> */}
                   <button className="w-full py-3 rounded-xl text-sm font-bold bg-white/10 hover:bg-[#E8C547] hover:text-black transition-all duration-300">
                     Find Sellers
                   </button>
