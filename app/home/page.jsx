@@ -276,12 +276,14 @@ export default function HomePage() {
                 </div>
               ) : (
                 <div>
+                  <div className="flex justify-center items-center">
                   <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#E8C547]/20 to-[#F7931E]/20 flex items-center justify-center mb-2">
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E8C547" strokeWidth="2">
                       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                       <polyline points="17 8 12 3 7 8" />
                       <line x1="12" y1="3" x2="12" y2="15" />
                     </svg>
+                  </div>
                   </div>
                   <p className="text-base font-semibold">Drop your image here</p>
                   <p className="text-gray-500 text-sm">or click to browse · JPG, PNG, WEBP</p>
