@@ -144,7 +144,7 @@ export default function TokenGate({ onClose, onSuccess }) {
     }
   };
 
-  const BADGES = ["", "", "POPULAR", "BEST VALUE"];
+  const BADGES = ["", "", "POPULAR", "BEST VALUE", "PREMIUM"];
 
   return (
     // Backdrop
@@ -295,7 +295,7 @@ export default function TokenGate({ onClose, onSuccess }) {
           {loading
             ? "Processing..."
             : selectedPack
-              ? `Pay ₦${Number(selectedPack.price_naira).toLocaleString()} → ${selectedPack.tokens_per_pack} tokens`
+              ? `Pay ₦${Number(selectedPack.price_naira).toLocaleString()}`
               : "Select a pack above"}
         </button>
 

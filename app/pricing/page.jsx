@@ -32,11 +32,11 @@ export default function PricingPage() {
   // Static fallback if not signed in or packs haven't loaded
   const displayPacks = packs.length > 0 ? packs : [
     { id: 1, tokens_per_pack: 2,  price_naira: "200",  label: "Starter Pack" },
-    { id: 2, tokens_per_pack: 4,  price_naira: "400",  label: "Basic Pack" },
-    { id: 4, tokens_per_pack: 12, price_naira: "1000", label: "Pro Pack" },
+    { id: 2, tokens_per_pack: 25,  price_naira: "5000",  label: "Pro Pack" },
+    { id: 4, tokens_per_pack: 75, price_naira: "25000", label: "Premium Pack" },
   ];
 
-  const BADGES = [null, null, "POPULAR", "BEST VALUE"];
+  const BADGES = [null, null, "POPULAR", "BEST VALUE", "PREMIUM"];
 
   const handleBuyClick = () => {
     if (isSignedIn) setShowTokenGate(true);

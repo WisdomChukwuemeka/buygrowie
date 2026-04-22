@@ -222,7 +222,7 @@ export default function Navbar() {
 
         {/* Bottom: sign in CTA if not signed in */}
         {!isSignedIn && (
-          <div className="p-4 border-t border-border flex flex-col gap-2">
+          <div className="p-4 border-t border-border flex flex-col  gap-2">
             <SignInButton mode="modal">
               <button className="w-full py-2.5 rounded-xl text-sm font-medium border border-border text-secondary hover:text-primary transition-all cursor-pointer bg-transparent">
                 Sign In
