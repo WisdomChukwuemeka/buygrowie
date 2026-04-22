@@ -285,14 +285,16 @@ export default function HomePage() {
                     </svg>
                   </div>
                   </div>
+                  <div className="text-center">
                   <p className="text-base font-semibold">Drop your image here</p>
                   <p className="text-gray-500 text-sm">or click to browse · JPG, PNG, WEBP</p>
+                  </div>
                 </div>
               )}
             </div>
 
             {isLoaded && (
-              <div>
+              <div className="flex justify-center">
                 {isSignedIn ? (
                   <button onClick={handleSearch}
                     className={`px-12 py-4 rounded-xl text-base font-bold transition-all duration-300 border-none ${

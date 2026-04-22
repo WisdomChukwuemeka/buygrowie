@@ -180,43 +180,34 @@ export default function SearchPage() {
             {!activeFlow && !analyzing && (
               <div className="animate-in fade-in slide-in-from-bottom-4 duration-700 ease-out">
                 <h2 className="text-4xl lg:text-5xl font-extrabold tracking-tight mb-4 text-white">
-                  Select an Objective
+                  What do you want to do?
                 </h2>
                 <p className="text-zinc-400 text-lg mb-8 max-w-xl font-light">
-                  Choose an analytical path to extract global supplier data, technical documents, or specific specifications from your image.
+                  Choose what you want to find out from this image.
                 </p>
 
                 <div className="flex flex-col gap-4">
-                  {[
+                   {[
                     {
                       id: "buy",
                       num: "01",
                       icon: Icons.buy,
-                      title: "Source & Purchase",
-                      desc: "Locate global suppliers, verified wholesalers, and retail equivalents. Includes trusted acquisition links.",
-                      color: "from-emerald-500/20 to-emerald-500/0",
-                      borderColor: "border-emerald-500/30",
-                      iconColor: "text-emerald-400",
+                      title: "Find & Buy",
+                      desc: "Find where to buy this item online, including trusted sellers and similar products.",
                     },
                     {
                       id: "learn",
                       num: "02",
                       icon: Icons.learn,
-                      title: "Technical Overview",
-                      desc: "Extract historical context, material composition, and step-by-step manufacturing breakdowns.",
-                      color: "from-[#E8C547]/20 to-[#E8C547]/0",
-                      borderColor: "border-[#E8C547]/30",
-                      iconColor: "text-[#E8C547]",
+                      title: "Learn About It",
+                      desc: "Get simple details about the product, what it’s made of, and how it’s made.",
                     },
                     {
                       id: "others",
                       num: "03",
                       icon: Icons.others,
-                      title: "Custom Inquiry",
-                      desc: "Execute an open-ended query. Ask highly specific questions regarding this item.",
-                      color: "from-blue-500/20 to-blue-500/0",
-                      borderColor: "border-blue-500/30",
-                      iconColor: "text-blue-400",
+                      title: "Ask Anything",
+                      desc: "Ask any question you have about this item.",
                     },
                   ].map(({ id, num, icon, title, desc, color, borderColor, iconColor }) => (
                     <button
