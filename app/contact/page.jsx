@@ -48,8 +48,8 @@ export default function ContactPage() {
         <div className="p-7 bg-card border border-border rounded-xl">
           <div className="font-bold mb-4">Other ways to reach us</div>
           {[
-            { icon: "📧", label: "Email", val: "hello@snapsearch.app" },
-            { icon: "📍", label: "Location", val: "Port Harcourt, Nigeria" },
+            { icon: "📧", label: "Email", val: "Linked2buy@gmail.com" },
+            { icon: "📍", label: "Location", val: "California, USA" },
           ].map(({ icon, label, val }) => (
             <div key={label} className="flex items-center gap-3 mb-3 last:mb-0">
               <span className="text-lg">{icon}</span>
