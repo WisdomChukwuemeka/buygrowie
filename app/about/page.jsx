@@ -11,10 +11,10 @@ export default function AboutPage() {
             The world's products,<br />one snap away
           </h1>
           <p className="text-secondary text-lg leading-relaxed mb-5">
-            SnapSearch was built with one simple belief: you shouldn't need to know the name of something to find it, buy it, or understand it. A photo should be enough.
+            Linked2buy was built with one simple belief: you shouldn't need to know the name of something to find it, buy it, or understand it. A photo should be enough.
           </p>
           <p className="text-secondary text-lg leading-relaxed">
-            Whether you spotted a product in a store, saw something in a video, or want to know how that food you ate last night was produced — SnapSearch gives you the full picture in seconds.
+            Whether you spotted a product in a store, saw something in a video, or want to know how that food you ate last night was produced — Linked2buy gives you the full picture in seconds.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function AboutPage() {
         <div className="p-10 bg-card border border-border rounded-[20px] text-center">
           <h2 className="text-2xl font-display font-black mb-3">Built for Africa, used worldwide</h2>
           <p className="text-secondary text-sm leading-relaxed">
-            Headquartered in Nigeria with Paystack integration, SnapSearch is designed for the African market while connecting you to global suppliers on Amazon, AliExpress, eBay, and beyond.
+            Headquartered in Nigeria with Paystack integration, Linked2buy is designed for the African market while connecting you to global suppliers on Amazon, AliExpress, eBay, and beyond.
           </p>
         </div>
       </section>

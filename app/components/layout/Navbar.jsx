@@ -87,11 +87,9 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 flex-shrink-0">
-            <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center text-bg font-display font-black text-base">
-              S
-            </div>
-            <span className="font-display font-bold text-lg tracking-tight">
-              Snap<span className="text-accent">Search</span>
+           
+            <span className="font-display font-bold text-lg tracking-tight text-white">
+              Linked<span className="text-orange-500">2buy</span>
             </span>
           </Link>
         </div>
