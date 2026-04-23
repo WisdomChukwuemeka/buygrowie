@@ -36,6 +36,7 @@ export default function Navbar() {
   ];
 
   const authLinks = [
+    { href: "/shop", label: "Shop",   icon: "🛍️" },
     { href: "/tracking",  label: "Track Order", icon: "📦" },
     { href: "/dashboard", label: "Dashboard",   icon: "📊" },
   ];
